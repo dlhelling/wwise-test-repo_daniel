@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7228B7FF-42E7-450F-948F-1409F99CE206}" SchemaVersion="80">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{7228B7FF-42E7-450F-948F-1409F99CE206}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="OneShot" ID="{63E110B0-EC3A-4378-9A93-458A3BD3F1E1}" ShortID="55320877">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51BA95AC-071C-4C80-84CE-EF3CAD78F82C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CEB0255B-B767-417F-B06D-0C49EF73303A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="beeps01" ID="{1F98535C-C72F-47A6-8FE7-6390B488D327}" ShortID="25080931">
+							<Language>SFX</Language>
+							<AudioFile>beeps01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="beeps01" ID="{1F98535C-C72F-47A6-8FE7-6390B488D327}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="space-ambience-bridgearea" ID="{0D7E9068-CAF1-4AD4-8696-9084BC8048B4}" ShortID="962963178">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51BA95AC-071C-4C80-84CE-EF3CAD78F82C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CEB0255B-B767-417F-B06D-0C49EF73303A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="space-ambience-bridgearea" ID="{907100F2-8602-48FE-8B46-467E87B27DCE}" ShortID="417471622">
+							<Language>SFX</Language>
+							<AudioFile>space-ambience-bridgearea.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="space-ambience-bridgearea" ID="{907100F2-8602-48FE-8B46-467E87B27DCE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

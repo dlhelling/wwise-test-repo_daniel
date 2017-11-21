@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{321ECCC7-D78B-49C0-8B48-092795708217}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{321ECCC7-D78B-49C0-8B48-092795708217}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="OneShot" ID="{72132037-77DE-4FBA-B014-CA066C43D6D9}">
+					<ChildrenList>
+						<Action Name="" ID="{C61297DA-2813-4808-BF89-B4098804EFD6}" ShortID="613845108">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OneShot" ID="{63E110B0-EC3A-4378-9A93-458A3BD3F1E1}" WorkUnitID="{7228B7FF-42E7-450F-948F-1409F99CE206}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience2D" ID="{2A851A4A-E370-4661-8ABB-64DD7E23AEE2}">
+					<ChildrenList>
+						<Action Name="" ID="{7AF4FBD8-CB7C-4A1B-A29E-737279C58229}" ShortID="979435207">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="space-ambience-bridgearea" ID="{0D7E9068-CAF1-4AD4-8696-9084BC8048B4}" WorkUnitID="{7228B7FF-42E7-450F-948F-1409F99CE206}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
